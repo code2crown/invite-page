@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  sans-serif;
+    
+}
+header{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 10px;
+
+}
+.invite{
+    padding: 5px;
+
+}
+h2,p{
+    padding: 5px;
+}
+.spn{
+    color: rgb(6, 6, 6);
+    font-weight: bold;
+}
+.contect{
+    width: 25%;
+    margin: 10px 20px
+}
+
+input[type="text"],input[type="email"]{
+    
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 10px 1px;
+
+}
+button[type="submit"]{
+    background-color: black;
+    color: aliceblue;
+    padding: 10px 20px;
+    width: 100px;
+    margin-left: 55px ;
+    margin-top: 19px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: o.2s;
+}
+button:hover{
+    background-color: blue;
+}
