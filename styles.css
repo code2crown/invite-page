@@ -4,7 +4,7 @@
     font-family:  sans-serif;
     
 }
-header,footer{
+header{
     background-color: black;
     color: aliceblue;
     text-align: center;
@@ -53,4 +53,10 @@ button[type="submit"]{
 }
 button:hover{
     background-color: blue;
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
 }
